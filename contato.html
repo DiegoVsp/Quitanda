@@ -8,7 +8,7 @@
     integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
     integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-  <title>Quitanda Online :: Titulo da Página</title>
+  <title>Quitanda Online :: Contato</title>
   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
@@ -55,39 +55,37 @@
       </div>
     </div>
   </nav>
-
-
-
   <main>
     <div class="container">
-      <h1>Título da Página</h1>
-      <hr>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iusto ullam, in repudiandae repellendus ab omnis
-        corporis, ratione, provident maiores quaerat illum enim! Nulla nostrum expedita tempore facere illum delectus.
-      </p>
-      <p>Possimus fugiat quae quaerat modi corrupti praesentium ad iste suscipit et nesciunt ut dignissimos perspiciatis
-        voluptatibus nemo earum voluptatem, ab explicabo pariatur, veniam repudiandae. Ullam voluptatem exercitationem
-        nihil temporibus porro?</p>
-      <p>Sunt consequuntur consectetur, temporibus incidunt, officiis asperiores, molestiae dolor minus aut commodi
-        error ipsa autem. Doloremque iusto enim, cupiditate consectetur voluptatem asperiores odit qui quisquam
-        quibusdam facere, itaque iure expedita?</p>
-      <p>Beatae culpa voluptatem accusamus nihil perferendis corporis quasi dolor quidem sit quam dolore et tenetur
-        sequi est distinctio, quaerat ullam asperiores voluptatibus aliquid? Nesciunt commodi, velit nulla reiciendis
-        laborum voluptas!</p>
-      <p>Maiores quos ipsa aperiam mollitia accusamus tempora, eos, distinctio fugit nesciunt veniam dolore doloremque
-        officia perferendis in corporis quas. Velit atque voluptates magni iure commodi laborum voluptatibus, modi est
-        nulla!</p>
-      <p>Culpa suscipit incidunt reprehenderit inventore iusto, dignissimos consectetur omnis ut perspiciatis beatae,
-        neque aliquam harum nemo quam itaque id voluptate ipsa assumenda nobis ullam eum! Veniam error libero quisquam
-        possimus!</p>
-      <p>Ullam neque consequatur blanditiis doloribus veritatis consequuntur minima non iure ab! Nemo quidem velit
-        blanditiis odio voluptatum, fugiat sit amet ipsam beatae eius. Amet est voluptatem delectus? Natus, nihil
-        facilis!</p>
-      <p>Quisquam odio quis nesciunt ut repellat. Nulla pariatur voluptatibus voluptatum mollitia totam optio quia
-        sapiente? Obcaecati ad temporibus, fugit dignissimos rem, magni esse magnam aperiam tempora iure tempore debitis
-        ratione.</p>
-      <p>Pariatur perferendis optio atque, ea quis, in est, iusto possimus suscipit cumque doloribus qui sapiente minima
-        voluptate fuga maxime quos quia. Ratione nesciunt dolor reprehenderit rem nisi, hic numquam repudiandae!</p>
+      <div class="row justify-content-center">
+        <form class="col-sm-10 col-md-8 col-lg-6">
+          <h1 class="mb-3">Entre em Contato</h1>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" autofocus id="txtNome" placeholder=" ">
+            <label for="txtNome">Nome Completo</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" autofocus id="txtEmail" placeholder=" ">
+            <label for="txtEmail">E-mail</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea type="text" style="height:200px;" class="form-control" autofocus id="txtMensagem"
+              placeholder=" "></textarea>
+            <label for="txtMensagem">Mensagem</label>
+          </div>
+          <button class="btn btn-lg btn-danger" type="button"
+            onclick="window.location.href='/confirmcontato.html'">Enviar Mensagem</button>
+
+          <p class="mt-3">
+            Faremos nosso melhor para responder sua mensagem em até 2 dias úteis.
+          </p>
+          <p class="mt-3">
+            Atenciosamente,<br>
+            Central de Relacionameto Quitanda Online.
+          </p>
+        </form>
+        
+      </div>
     </div>
   </main>
 
